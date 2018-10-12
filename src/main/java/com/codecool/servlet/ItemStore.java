@@ -24,4 +24,8 @@ public abstract class ItemStore {
         }
         return null;
     }
+
+    private static void remove(Item item){
+        items.remove(item);
+    }
 }
